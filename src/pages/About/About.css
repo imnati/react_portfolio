@@ -20,6 +20,7 @@
   max-width: 500px;
   height: auto;
   display: block;
+  border-radius: 12px;
 }
 
 .page-content {
