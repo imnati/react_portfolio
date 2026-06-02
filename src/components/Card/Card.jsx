@@ -5,6 +5,7 @@ function Card({ title, description }) {
     <div className="card">
       <h3 className="card-title">{title}</h3>
       <p className="card-description">{description}</p>
+      <button className="card-btn">View Project</button>
     </div>
   );
 }

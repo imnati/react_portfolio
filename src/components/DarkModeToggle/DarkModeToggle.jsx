@@ -5,11 +5,7 @@ function DarkModeToggle() {
   const [darkMode, setDarkMode] = useState(false);
 
   return (
-    <button
-      id="dark-mode-toggle"
-      onClick={() => setDarkMode(!darkMode)}
-      className={darkMode ? "dark" : "light"}
-    >
+    <button className="dark-mode-toggle" onClick={() => setDarkMode(!darkMode)}>
       {darkMode ? "Light Mode" : "Dark Mode"}
     </button>
   );
