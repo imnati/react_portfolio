@@ -1,0 +1,65 @@
+.page {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #181717;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  padding: 4rem 8%;
+}
+
+.page-left,
+.page-right {
+  flex: 1;
+}
+
+.page-image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  display: block;
+}
+
+.page-content {
+  width: 100%;
+}
+
+.page-description {
+  max-width: 600px;
+  line-height: 1.8;
+  color: #d1d5db;
+}
+
+@media (max-width: 992px) {
+  .page {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .about-heading {
+    justify-content: center;
+  }
+
+  .page-image {
+    max-width: 400px;
+  }
+
+  .page-description {
+    max-width: 100%;
+  }
+  .cv-btn {
+    background-color: #dc2626;
+    color: white;
+    border: none;
+    padding: 0.75rem 1rem;
+    margin-top: 1.75rem;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .cv-btn:hover {
+    background-color: #b91c1c;
+  }
+}
