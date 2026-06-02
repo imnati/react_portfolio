@@ -39,6 +39,11 @@
   cursor: pointer;
 }
 
+.content button a {
+  color: white;
+  text-decoration: none;
+}
+
 .right-section {
   display: flex;
   justify-content: center;

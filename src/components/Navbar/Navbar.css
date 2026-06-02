@@ -8,10 +8,12 @@
   padding: 1rem 2rem;
 }
 
-.logo h1 {
+.logo a {
   font-size: 1.25rem;
   font-weight: bold;
   color: #ef4444;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .logo span {

@@ -1,4 +1,5 @@
 import "./Home.css";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -13,7 +14,9 @@ function Home() {
             background in JavaScript, HTML, and CSS. I enjoy creating
             user-friendly interfaces and bringing ideas to life through code.
           </p>
-          <button>Contact Me</button>
+          <button>
+            <Link to="/contact">Contact Me</Link>
+          </button>
         </div>
       </div>
 

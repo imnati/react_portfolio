@@ -7,7 +7,9 @@ function Navbar() {
     <nav className="navbar">
       <div className="logo">
         <h1>
-          Natnael <span>Akalewold</span>
+          <Link to="/">
+            Natnael <span>Akalewold</span>
+          </Link>
         </h1>
       </div>
 
